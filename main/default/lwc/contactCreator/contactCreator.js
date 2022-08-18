@@ -1,6 +1,6 @@
 import { LightningElement,api, wire } from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
-//FirstName, LastName, Email
+//Removed this line FirstName, LastName, Email
 import { createRecord } from 'lightning/uiRecordApi';
 import CONTACT_OBJECT from '@salesforce/schema/Contact';
 import CONTACT_FIRSTNAME_FIELD from '@salesforce/schema/Contact.FirstName';
