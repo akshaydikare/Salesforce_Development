@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="wireListInfoByName">
+        <template if:true={displayColumns}>
+            <div class="slds-m-around_medium">
+                <template for:each={displayColumns} for:item="col">
+                    <div key={col.fieldApiName} class="slds-box">
+                        
+                            <strong>FieldApiName</strong>  :  {col.fieldApiName} | <strong>Label</strong>  : {col.label} | <strong>Sortable</strong> : {col.sortable}
+                        
+                        </div>
+                </template>
+            </div>
+        </template>
+    </lightning-card>
+</template>
