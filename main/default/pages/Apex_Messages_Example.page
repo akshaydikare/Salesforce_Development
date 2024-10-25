@@ -1,3 +1,0 @@
-<apex:page controller="Apex_Messages_Example" >
-    <apex:pageMessages />
-</apex:page>

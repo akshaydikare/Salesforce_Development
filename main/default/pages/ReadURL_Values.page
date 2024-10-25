@@ -1,4 +1,0 @@
-<apex:page controller="ReadURL_Values">
-    Name : {!name}
-    City : {!city}
-</apex:page>

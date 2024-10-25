@@ -1,3 +1,0 @@
-<aura:event type="COMPONENT" description="Events" > 
-    <aura:attribute name="selectedRecord" type="String" /> 
-</aura:event>
